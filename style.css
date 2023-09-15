@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,400;1,500&family=Schoolbell&display=swap');
+
+:root{
+    --darkblue:#2E4960;
+    --main:#FF9F00;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ----------------------------navbar starts -------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF9F00;
+    padding: 10px 30px;
+}
+
+.nav-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture a{
+    text-decoration: none;
+}
+
+.picture img{
+    width: 71px;
+    height: 70px;
+}
+
+.picture h3{
+    font-family: 'Schoolbell', cursive;
+    color: #FFF8F0;
+    font-size: 37px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+ul a{
+    text-decoration: none;
+   
+}
+
+ul li{
+ 
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: var(--darkblue);
+    cursor: pointer;
+}
+
+ul li:hover{
+    font-size: 24px;
+    font-weight: 900px;
+    line-height: 28px;
+    transition: .5s ease;
+}
+
+.nav-register{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-register button{
+    background-color: transparent;
+    border: none;
+    color: #2E4960;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+}
+
+.nav-register button:hover{
+   color: #FFF8F0;
+   cursor: pointer;
+   transition: 1s ease;
+}
+/* ----------------------------navbar ends -------------------------------*/
+
+/* ----------------------------main page starts -------------------------------*/
+    .main-page{
+        background-image:url(img/Cat.png);
+        background-position: center;
+        background-size: cover;
+        height: 89vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center */
+    }
+
+    .main-page-text{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 200px;
+        margin-top: 100px;
+    } 
+    
+    .main-page-text h2{
+        color: #2E4960;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px; 
+        letter-spacing: 0.75px;
+    }
+
+    .main-page-text p{
+        color: #2E4960;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+    }
+
+    .main-page-text p span{
+        color: var(--main);
+    }
+
+    .main-page-poisk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 80px;
+    }
+
+    .main-page-poisk img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-page-poisk input{
+        width: 600px;
+        height: 55px;
+        border-radius: 36.5px;
+        border: none;
+        background: #EFF0F6;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    #main-input{
+        padding: 5px 10px;
+        font-size: 22px;
+        color: #DDD;
+        font-weight: 400;
+    }
+
+
+    .main-page button{
+        width: 200px;
+        height: 50px;
+        border-radius: 36.5px;
+        background: #2E4960;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+        margin-top: 40px;
+        margin-left: 600px;
+        cursor: pointer;
+
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 0.75px;
+    }
+/* ----------------------------main page ends -------------------------------*/
+
+/* ----------------------------little starts -------------------------------*/
+    .little{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--darkblue);
+        padding: 20px 40px;
+        gap: 100px;
+    }
+
+    .little-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: #FFF;
+        gap: 10px;
+    }
+
+    .little-text h4{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 112% */
+        letter-spacing: 0.75px;
+    }
+
+    .little-text p{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 108.333% */
+        letter-spacing: 0.75px; 
+    }
+/* ----------------------------little ends -------------------------------*/
+
+/* ----------------------------advantage starts -------------------------------*/
+.advantage{
+    padding: 50px 80px;
+}
+
+.advantage h2{
+    color: #2E4960;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    padding:40px 0;
+}
+.advantage-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.advantage-macbook{
+    position: relative;
+}
+
+#code{
+    position: absolute;
+    width: 455px;
+    height: 400px;
+    left: 10px;
+    top: 16px;
+
+}
+
+.shadow{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+}
+
+.advantage-main img{
+    width: 630px;
+    height: 550px;
+}
+
+.advantage-main-text{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.advantage-main-card{
+    display: flex;
+    gap: 20px;
+}
+
+.advantage-main-card img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.main-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-card-text h4{
+    color: #2E4960;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px; /* 112% */
+    letter-spacing: 0.75px;
+}
+
+.main-card-text p{
+    color: #2E4960;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: 0.75px;
+}
+
+.advantage-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.advantage-button h5{
+    font-size: 14px;
+    color: #2E4960;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.75px;
+    padding-right: 20px;
+    }
+
+.advantage-button button{
+    cursor: pointer;
+    width: 130px;
+    height: 37px;
+    background-color: #2E4960;
+    border: none;
+    border-radius: 36px;
+
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.75px;
+}
+/* ----------------------------advantage ends -------------------------------*/
+
+/* ----------------------------footer starts -------------------------------*/
+    .footer{
+        display: flex;
+        background-color: #2E4960;
+        gap: 70px;
+        padding: 30px 60px;
+        padding-left: 180px;
+    }
+
+    .footer-logo{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img{
+        width: 72px;
+        height: 72px;
+    }
+
+    .footer-logo h3{
+        color: #FFF8F0;
+        font-size: 39px;
+        font-weight: 400;
+        font-family: 'Schoolbell', cursive;
+
+    }
+
+    .subscribe p{
+        color: #F2994A;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+    }
+
+    .subscribe-input{
+        display: flex;
+        gap: 0;
+    }
+
+    .subscribe-input button{
+        cursor: pointer;
+        width: 42px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #FF9F00;
+        border: none;
+    }
+
+    .subscribe input{
+        border-radius: 8px;
+        background: rgba(136, 156, 173, 0.24);
+        border: none;
+        width: 270px;
+        height: 37px;
+        color: #FFF;
+    }
+
+    .footer-list{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .footer-list span{
+        color: var(--orange, #F2994A);
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+    }
+
+    .footer-list ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .footer-list ul li{
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+    }
+
+    .footer-brands{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        gap: 10px;
+    }
+
+
+/* ----------------------------footer ends -------------------------------*/
+
+
+
+
+/***************************************************DASHBOARD *********************************************/
+
+/* ----------------------------dashboard sarts -------------------------------*/
+.extreme{
+    background-color: #003461;
+    text-align: center;
+}
+
+.extreme h2{
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: 0.75px;
+    color: #EFF0F6;
+}
+
+.dashboard{
+    display: flex;
+   
+    
+}
+
+.dashboard-small{
+   height: 890px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    background-color: #FF9F00;
+}
+
+.dashboard-small h3{
+    color: #2E4960;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: 0.75px;
+    padding-bottom: 10px;
+}
+
+
+.dashboard-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.dashboard-buttons button{
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    border-radius: 36px;
+    border: none;
+    background-color: var(--darkblue);
+
+    color: var(--grayscale-background, #F7F7FC);
+    text-align: center;
+
+   
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: 0.75px;
+}
+
+.dashboard-buttons button:hover{
+    background-color: #003461;
+    color: #fff;
+}
+
+
+.dashboard-upload{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.dashboard-upload span{
+    color: #2E4960;
+}
+
+.dashboard-person{
+    position: relative;
+    display: flex;
+    width: 290px;
+}
+
+.dashboard-person img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 1px;
+}
+
+.dashboard-person .dashboard-person-button {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+
+
+.dasboard-inputes{
+    position: relative;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--darkblue);
+    height: 220px;
+    padding: 20px;
+}
+
+.dasboard-inputes button{
+    cursor: pointer;
+    display: flex;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    color: #F7F7FC;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 36px;
+    background-color: #FF9F00;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.75px;
+    right: 90px;
+    bottom: 40px;
+}
+
+.dasboard-inputes h4{
+    color: #EFF0F6;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: 0.75px;
+}
+
+.dashboard-input-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+
+}
+
+.dashboard-input-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.dashboard-input-cards2 p{
+    color: #A0A3BD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.75px;
+}
+
+.dashboard-input-cards2 input{
+    display: flex;
+    padding:10px ;
+    align-items: center;
+    border-radius: 16px;
+    background: #EFF0F6;
+    border: none;
+    width: 200px;
+    height: 25px;
+}
+/* ----------------------------dashboard ends -------------------------------*/
